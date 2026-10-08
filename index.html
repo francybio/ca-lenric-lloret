@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ca L'Enric · Pollo a l'ast y cocina de casa desde 1982 · Lloret de Mar</title>
+<meta name="description" content="Restaurant Ca L'Enric, en la Av. Frederic Mistral, 8 de Lloret de Mar: pollo a l'ast, brasa, escalopas y platos combinados desde 1982. Reservas: 972 36 82 13.">
+<meta name="theme-color" content="#1C1814">
+<meta property="og:title" content="Ca L'Enric · Des de 1982">
+<meta property="og:description" content="Pollo a l'ast, brasa y platos combinados en Lloret de Mar.">
+<meta property="og:image" content="assets/img/ast.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231C1814'/%3E%3Cpath d='M20 38 C10 38 10 22 22 24 C22 12 42 12 42 24 C54 22 54 38 44 38 Z' fill='%23FBF6EC'/%3E%3Crect x='20' y='41' width='24' height='6' rx='2' fill='%23E2702A'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;800;900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="hat" viewBox="0 0 64 52">
+    <path d="M14 34 C3 34 2 16 16 18 C16 4 48 4 48 18 C62 16 61 34 50 34 Z" fill="currentColor"/>
+    <path d="M24 30 V22 M32 30 V18 M40 30 V22" stroke="var(--hat-line, #1C1814)" stroke-width="2.2" stroke-linecap="round" opacity=".35"/>
+    <rect x="14" y="38" width="36" height="8" rx="3" fill="currentColor"/>
+  </symbol>
+</svg>
+
+<!-- ============ INTRO · la brasa ============ -->
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro__half intro__half--top"></div>
+  <div class="intro__half intro__half--bot"></div>
+  <div class="intro__core">
+    <svg class="intro__hat" viewBox="0 0 64 52"><path class="intro__hatline" d="M14 34 C3 34 2 16 16 18 C16 4 48 4 48 18 C62 16 61 34 50 34 Z M14 38 H50 V46 H14 Z"/></svg>
+    <p class="intro__name"><span>Ca L'Enric</span></p>
+    <p class="intro__year">des de 1982 · <b id="introYear">0</b> anys</p>
+  </div>
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="Ca L'Enric, inicio">
+    <svg class="brand__hat" viewBox="0 0 64 52" aria-hidden="true"><use href="#hat"/></svg>
+    <span class="brand__name">Ca L'Enric<small>des de 1982</small></span>
+  </a>
+  <nav class="nav__links" id="navLinks" aria-label="Principal">
+    <a href="#ast">L'ast</a>
+    <a href="#combinado">Tu plato</a>
+    <a href="#carta">Carta</a>
+    <a href="#avisos">Avisos</a>
+    <a href="#historia">Historia</a>
+    <a href="#donde">Dónde</a>
+  </nav>
+  <div class="nav__end">
+    <span class="live" data-live><i></i><span data-live-text>Horario</span></span>
+    <a class="btn btn--char btn--sm" href="tel:+34972368213"><i class="ph ph-phone"></i><span>972 36 82 13</span></a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Menú"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero__copy">
+      <p class="kicker"><span>Snack bar · restaurant</span><span>Lloret de Mar</span></p>
+      <h1 class="hero__title">
+        <span class="line"><span>Pollo a l'ast,</span></span>
+        <span class="line"><span>brasa y cocina</span></span>
+        <span class="line"><span>de casa <em>des de 1982</em></span></span>
+      </h1>
+      <p class="hero__lead">Raciones de las de antes, platos combinados y el pollo dando vueltas en el ast. En la Avinguda Frederic Mistral, con terraza.</p>
+      <div class="hero__cta">
+        <a class="btn btn--ember" href="#combinado"><i class="ph ph-fork-knife"></i><span>Monta tu plato</span></a>
+        <a class="btn btn--line" href="tel:+34972368213"><i class="ph ph-phone"></i><span>Reservar</span></a>
+      </div>
+    </div>
+    <figure class="hero__media">
+      <div class="hero__img"><img src="assets/img/ast.jpg" alt="Pollos dorándose en el ast de Ca L'Enric"></div>
+      <div class="badge" aria-hidden="true">
+        <svg viewBox="0 0 200 200"><defs><path id="bp" d="M100 100 m-80 0 a80 80 0 1 1 160 0 a80 80 0 1 1 -160 0"/></defs><text><textPath href="#bp">Pollo a l'ast · des de 1982 · Lloret de Mar · </textPath></text></svg>
+        <svg class="badge__hat" viewBox="0 0 64 52"><use href="#hat"/></svg>
+      </div>
+    </figure>
+    <ul class="hero__facts">
+      <li><b>4,6 ★</b><span>1.955 reseñas en Google</span></li>
+      <li><b>32</b><span>platos combinados, desde 8,50 €</span></li>
+      <li><b>12:30</b><span>abrimos a mediodía · terraza</span></li>
+    </ul>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span>Pollo a l'ast</span><svg viewBox="0 0 64 52"><use href="#hat"/></svg><span>Escalopa</span><svg viewBox="0 0 64 52"><use href="#hat"/></svg><span>Butifarra a la brasa</span><svg viewBox="0 0 64 52"><use href="#hat"/></svg><span>Calamares a la romana</span><svg viewBox="0 0 64 52"><use href="#hat"/></svg><span>Croquetas de pollo</span><svg viewBox="0 0 64 52"><use href="#hat"/></svg><span>Bon profit!</span><svg viewBox="0 0 64 52"><use href="#hat"/></svg>
+      <span>Pollo a l'ast</span><svg viewBox="0 0 64 52"><use href="#hat"/></svg><span>Escalopa</span><svg viewBox="0 0 64 52"><use href="#hat"/></svg><span>Butifarra a la brasa</span><svg viewBox="0 0 64 52"><use href="#hat"/></svg><span>Calamares a la romana</span><svg viewBox="0 0 64 52"><use href="#hat"/></svg><span>Croquetas de pollo</span><svg viewBox="0 0 64 52"><use href="#hat"/></svg><span>Bon profit!</span><svg viewBox="0 0 64 52"><use href="#hat"/></svg>
+    </div>
+  </div>
+
+  <!-- ============ L'AST (scroll) ============ -->
+  <section class="ast" id="ast">
+    <div class="ast__pin">
+      <div class="ast__copy">
+        <p class="eyebrow eyebrow--light">L'ast · baja despacio</p>
+        <h2 class="h2">El pollo gira <em>sin prisa</em></h2>
+        <ol class="ast__steps" id="astSteps">
+          <li class="is-on"><b>01</b><span>Al ast, uno junto a otro.</span></li>
+          <li><b>02</b><span>Vuelta a vuelta, frente a la brasa.</span></li>
+          <li><b>03</b><span>Dorado por fuera, jugoso por dentro.</span></li>
+          <li><b>04</b><span>A la mesa: ½ pollo con patatas y guarnición, <strong>14,00 €</strong>.</span></li>
+        </ol>
+        <div class="gauge"><span>Punto de dorado</span><div class="gauge__bar"><i id="gaugeBar"></i></div><b id="gaugeNum">0%</b></div>
+      </div>
+      <div class="ast__rig" aria-hidden="true">
+        <div class="ast__glow" id="astGlow"></div>
+        <svg class="ast__svg" id="astSvg" viewBox="0 0 520 520"></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MONTA TU PLATO (interactivo) ============ -->
+  <section class="combo" id="combinado">
+    <div class="combo__head">
+      <p class="eyebrow">Interactivo · plato combinado</p>
+      <h2 class="h2">Monta tu plato y <em>pásanos la comanda</em></h2>
+      <p class="lead">Elige entre los 32 combinados de la carta y la guarnición. El plato se sirve en pantalla y la comanda se imprime con el precio real, IVA incluido.</p>
+    </div>
+    <div class="combo__grid">
+      <div class="combo__pick">
+        <p class="step"><b>1</b>Elige el plato</p>
+        <div class="cats" id="cats" role="tablist" aria-label="Tipos de plato"></div>
+        <div class="dishes" id="dishes"></div>
+        <p class="step"><b>2</b>Guarnición</p>
+        <div class="garn" id="garn"></div>
+        <p class="garn__note" id="garnNote"></p>
+      </div>
+      <div class="combo__serve">
+        <div class="plate-wrap">
+          <svg class="plate" id="plate" viewBox="0 0 400 300" role="img" aria-label="Tu plato"></svg>
+          <p class="plate__name" id="plateName"></p>
+          <p class="plate__price" id="platePrice"></p>
+          <button class="btn btn--ember" id="addBtn" type="button"><i class="ph ph-plus"></i><span>Añadir a la comanda</span></button>
+        </div>
+        <div class="printer">
+          <div class="printer__slot"></div>
+          <div class="ticket" id="ticket" aria-live="polite">
+            <div class="ticket__head">
+              <b>CA L'ENRIC</b>
+              <span>Des de 1982 · Av. Frederic Mistral, 8</span>
+              <span id="ticketMeta">Comanda nº 0000</span>
+            </div>
+            <ul class="ticket__lines" id="ticketLines"></ul>
+            <div class="ticket__total"><span>TOTAL</span><b id="ticketTotal">0,00 €</b></div>
+            <p class="ticket__foot">IVA incluido · ¡Bon profit!</p>
+            <div class="ticket__bar" aria-hidden="true"></div>
+          </div>
+          <div class="ticket__actions">
+            <a class="btn btn--char btn--sm" href="tel:+34972368213"><i class="ph ph-phone"></i><span>Llamar y reservar</span></a>
+            <button class="btn btn--line btn--sm" id="clearBtn" type="button"><i class="ph ph-trash"></i><span>Vaciar</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CARTA ============ -->
+  <section class="menu" id="carta">
+    <div class="board">
+      <div class="board__head">
+        <svg class="board__hat" viewBox="0 0 64 52" aria-hidden="true"><use href="#hat"/></svg>
+        <h2 class="board__title">Plats combinats</h2>
+        <p class="board__sub">Platos combinados · la carta completa</p>
+      </div>
+      <div class="board__tools">
+        <div class="chips" id="menuChips" role="tablist" aria-label="Filtrar la carta"></div>
+        <label class="search"><i class="ph ph-magnifying-glass"></i><input id="menuSearch" type="search" placeholder="Busca: escalopa, pollo…" autocomplete="off"><span class="sr">Buscar en la carta</span></label>
+      </div>
+      <ol class="board__list" id="menuList"></ol>
+      <div class="board__garn">
+        <div><h3>Guarniciones</h3><p>Pimiento frito y tomate · Calabacín rebozado · Escalivada · Ensalada</p></div>
+        <div><h3>Con suplemento <span>+2,00 €</span></h3><p>Ensaladilla rusa · Judías blancas</p></div>
+      </div>
+      <p class="board__note"><i class="ph ph-info"></i> Precios de la carta en sala, IVA incluido. En la carta también hay tapas, bocadillos calientes, ensaladas y postres: pregúntanos en el restaurante.</p>
+    </div>
+  </section>
+
+  <!-- ============ LA BARRA (galería en baraja) ============ -->
+  <section class="deck-sec" id="fotos">
+    <div class="deck-sec__copy">
+      <p class="eyebrow">Fotos de Instagram y de nuestros clientes</p>
+      <h2 class="h2">De la barra <em>a la mesa</em></h2>
+      <p class="lead">Desliza la foto de arriba hacia un lado para ver la siguiente. Raciones generosas, como dicen las reseñas.</p>
+      <div class="deck__ctrl">
+        <button type="button" id="deckPrev" aria-label="Foto anterior"><i class="ph ph-arrow-left"></i></button>
+        <span class="deck__count" id="deckCount">01 / 15</span>
+        <button type="button" id="deckNext" aria-label="Foto siguiente"><i class="ph ph-arrow-right"></i></button>
+      </div>
+      <p class="deck__cap" id="deckCap"></p>
+    </div>
+    <div class="deck" id="deck" aria-roledescription="carrusel" aria-label="Fotos de platos y del local"></div>
+  </section>
+
+  <!-- ============ AVISOS (stories de Instagram) ============ -->
+  <section class="notes" id="avisos">
+    <div class="notes__head">
+      <p class="eyebrow eyebrow--light">Directamente de su Instagram</p>
+      <h2 class="h2">El tablón <em>d'avisos</em></h2>
+      <p class="lead">Horarios, el cierre de temporada, la vuelta en marzo… La casa lo cuenta en stories. Toca una para verla a pantalla completa.</p>
+    </div>
+    <div class="notes__row" id="notesRow"></div>
+    <a class="notes__ig" href="https://www.instagram.com/calenriclloret/" target="_blank" rel="noopener"><i class="ph ph-instagram-logo"></i>@calenriclloret</a>
+  </section>
+
+  <!-- ============ HISTORIA ============ -->
+  <section class="story" id="historia">
+    <div class="story__pin">
+      <div class="story__intro">
+        <p class="eyebrow">Historia</p>
+        <h2 class="h2">Más de cuatro décadas <em>en Lloret</em></h2>
+      </div>
+      <div class="story__track" id="storyTrack">
+        <article class="mile"><span class="mile__y">1982</span><figure><img src="assets/img/mantel.jpg" alt="Mantel con el logo de Ca L'Enric, des de 1982" loading="lazy"></figure><h3>Abre Ca L'Enric</h3><p>El gorro de cocinero y una fecha que se lleva con orgullo hasta en los manteles: des de 1982.</p></article>
+        <article class="mile"><span class="mile__y">La casa</span><figure><img src="assets/img/fachada.jpg" alt="Fachada del Snack Bar Ca L'Enric con su terraza" loading="lazy"></figure><h3>Snack bar en la Frederic Mistral</h3><p>Barra, comedor y terraza en la Avinguda Frederic Mistral, 8, a dos pasos del centro de Lloret.</p></article>
+        <article class="mile"><span class="mile__y">2022</span><figure><img src="assets/img/story-vacances.jpg" alt="Story de Ca L'Enric con el sello del 40 aniversario" loading="lazy"></figure><h3>40 años</h3><p>El 40è aniversari quedó grabado en sus avisos: «Estem de vacances… fins la propera temporada».</p></article>
+        <article class="mile"><span class="mile__y">Equipo</span><figure><img src="assets/img/cf-lloret.jpg" alt="Familia con las camisetas del CF Lloret con el nombre de Ca L'Enric" loading="lazy"></figure><h3>Con el CF Lloret</h3><p>El nombre de la casa también juega: luce en las camisetas del club de fútbol del pueblo.</p></article>
+        <article class="mile"><span class="mile__y">Gremi</span><figure><img src="assets/img/poster-fachada.jpg" alt="La puerta de Ca L'Enric" loading="lazy"></figure><h3>Del Gremi de Lloret</h3><p>Establecimiento del Gremi de Bars i Restaurants de Lloret de Mar, con su distintivo en la puerta.</p></article>
+        <article class="mile"><span class="mile__y">Hoy</span><figure><img src="assets/img/pollo.jpg" alt="Un cuarto de pollo a l'ast con patatas y ensalada" loading="lazy"></figure><h3>1.955 reseñas</h3><p>Un 4,6 de media en Google. «Comida casera y abundante con excelente servicio», resume un cliente.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESEÑAS · el riel de comandas ============ -->
+  <section class="rail-sec">
+    <div class="rail-sec__head">
+      <p class="eyebrow">Lo que dicen en Google</p>
+      <h2 class="h2">Comandas <em>que vuelven</em></h2>
+    </div>
+    <div class="rail">
+      <div class="rail__bar" aria-hidden="true"></div>
+      <div class="rail__slips">
+        <figure class="slip"><span class="slip__clip"></span><p class="slip__stars">★★★★★</p><blockquote>«Nos recomendaron este sitio y salimos encantados. Desde platos combinados hasta bocadillos calientes, tapas y el jugoso pollo. La escalopa, muy recomendable.»</blockquote><figcaption>Carlos · Local Guide</figcaption></figure>
+        <figure class="slip"><span class="slip__clip"></span><p class="slip__stars">★★★★★</p><blockquote>«Excelente tanto la atención como la comida; además son muy amplios al servir y todo delicioso.»</blockquote><figcaption>Diana</figcaption></figure>
+        <figure class="slip"><span class="slip__clip"></span><p class="slip__stars">★★★★★</p><blockquote>«Comida casera y abundante con excelente servicio. La atención es cordial.»</blockquote><figcaption>Gonzalo · Local Guide</figcaption></figure>
+        <figure class="slip"><span class="slip__clip"></span><p class="slip__stars">★★★★★</p><blockquote>«Buena comida, buen trato y bien de precio. Gracias, equipo.»</blockquote><figcaption>Alex · Local Guide</figcaption></figure>
+        <figure class="slip"><span class="slip__clip"></span><p class="slip__stars">★★★★★</p><blockquote>«Muy buenas raciones, la guarnición buenísima y muy buena atención.»</blockquote><figcaption>Reseña en Google</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DÓNDE ============ -->
+  <section class="where" id="donde">
+    <div class="where__info">
+      <p class="eyebrow">Dónde y cuándo</p>
+      <h2 class="h2">Av. Frederic <em>Mistral, 8</em></h2>
+      <div class="where__status" data-live><i></i><span data-live-text>Consultando horario…</span></div>
+      <ul class="hours" id="hours">
+        <li data-day="1"><span>Dilluns · lunes</span><span>12:30–16:00 · 19:30–23:00</span></li>
+        <li data-day="2"><span>Dimarts · martes</span><span>12:30–16:00 · 19:30–23:00</span></li>
+        <li data-day="3"><span>Dimecres · miércoles</span><span>12:30–16:00 · noche cerrado</span></li>
+        <li data-day="4"><span>Dijous · jueves</span><span>Cerrado</span></li>
+        <li data-day="5"><span>Divendres · viernes</span><span>12:30–16:00 · 19:30–23:00</span></li>
+        <li data-day="6"><span>Dissabte · sábado</span><span>12:30–16:00 · 19:30–23:00</span></li>
+        <li data-day="0"><span>Diumenge · domingo</span><span>12:30–16:00 · 19:30–23:00</span></li>
+      </ul>
+      <p class="where__season"><i class="ph ph-snowflake"></i> En invierno la casa cierra unas semanas por vacaciones; la reapertura se anuncia en Instagram.</p>
+      <address class="where__addr">
+        <a href="https://maps.google.com/?q=Restaurant+Ca+L'Enric,+Av.+Frederic+Mistral,+8,+Lloret+de+Mar" target="_blank" rel="noopener"><i class="ph ph-map-pin"></i>Av. Frederic Mistral, 8 · 17310 Lloret de Mar</a>
+        <a href="tel:+34972368213"><i class="ph ph-phone"></i>972 36 82 13 · reservas</a>
+        <a href="https://www.instagram.com/calenriclloret/" target="_blank" rel="noopener"><i class="ph ph-instagram-logo"></i>@calenriclloret</a>
+      </address>
+    </div>
+    <div class="where__map">
+      <iframe title="Mapa: Restaurant Ca L'Enric en Lloret de Mar" src="https://maps.google.com/maps?q=Restaurant%20Ca%20L'Enric%2C%20Av.%20Frederic%20Mistral%208%2C%20Lloret%20de%20Mar&z=17&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <img src="assets/img/terraza.jpg" alt="Terraza de Ca L'Enric" loading="lazy">
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <svg class="foot__hat" viewBox="0 0 64 52" aria-hidden="true"><use href="#hat"/></svg>
+  <p class="foot__big">Bon profit!</p>
+  <div class="foot__row">
+    <span>Restaurant Ca L'Enric · des de 1982 · Lloret de Mar</span>
+    <span>Fotos y vídeos: Instagram @calenriclloret y reseñas de Google</span>
+  </div>
+</footer>
+
+<!-- visor de stories -->
+<div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-label="Stories" hidden>
+  <div class="viewer__phone">
+    <div class="viewer__bars" id="viewerBars"></div>
+    <div class="viewer__top"><span class="viewer__av"><svg viewBox="0 0 64 52"><use href="#hat"/></svg></span><b>calenriclloret</b><span id="viewerTitle"></span></div>
+    <video id="viewerVideo" playsinline muted></video>
+    <button class="viewer__tap viewer__tap--prev" type="button" aria-label="Anterior"></button>
+    <button class="viewer__tap viewer__tap--next" type="button" aria-label="Siguiente"></button>
+  </div>
+  <button class="viewer__close" type="button" aria-label="Cerrar"><i class="ph ph-x"></i></button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
